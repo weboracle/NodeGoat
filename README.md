@@ -35,7 +35,7 @@ If you do not wish to run NodeGoat on Heroku, please follow these steps to setup
 
 * Clone the github repository
 ```
-git clone https://github.com/OWASP/NodeGoat.git
+git clone https://github.com/weboracle/NodeGoat/NodeGoat.git
 ```
 
 * Install node modules
@@ -66,28 +66,6 @@ npm start
 #### Customizing the Default Application Configuration
 The default application settings (database url, http port, etc.) can be changed by updating the [config file] (https://github.com/OWASP/NodejsGoat/blob/master/config/env/all.js).
 
-## Report bugs, Feedback, Comments
-*  Open a new [issue](https://github.com/OWASP/NodeGoat/issues) or contact team by joining chat at [Slack](https://owasp.slack.com/messages/project-nodegoat/) or [![Join the chat at https://gitter.im/OWASP/NodeGoat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/OWASP/NodeGoat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-## Contributing
-Contributions from community are key to make NodeGoat a high quality comprehensive resource. Lets make NodeGoat awesome together!
-
-### Ways to Contribute
-Depending on your preference, you can contribute in various ways. Here are tasks planned for [upcoming release](https://github.com/OWASP/NodeGoat/milestones).
-You can also open an issue, sending a PR, or get in touch on [Gitter Chat](https://gitter.im/OWASP/NodeGoat) or [Slack](https://owasp.slack.com/messages/project-nodegoat/) 
-
-If sending PR, once code is ready to commit, run: 
-```
-grunt precommit
-```
-This command uses `js-beautifier` to indent the code and verifies these [coding standards](https://github.com/OWASP/NodeGoat/blob/master/.jshintrc) using `jsHint`. Please resolve all `jsHint` errors before committing the code.
-
-## Contributors
-Here are the amazing [contributors](https://github.com/OWASP/NodeGoat/graphs/contributors) to the NodeGoat project.
-
-## Supports
-[![JetBrains](https://www.jetbrains.com/company/docs/logo_jetbrains.png?raw=true)](https://www.jetbrains.com/webstorm/)
-- Thanks to JetBrains for providing licenses to fantastic webStrom IDE to build this project.
 
 ## License
 Code licensed under the [Apache License v2.0.](http://www.apache.org/licenses/LICENSE-2.0)
