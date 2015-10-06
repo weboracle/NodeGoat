@@ -16,6 +16,12 @@ The database comes pre-populated with these user accounts created as part of the
 * User Accounts (u:user1 p:User1_123), (u:user2 p:User2_123)
 * New users can also be added using the sign-up page.
 
+<a href="https://scan.coverity.com/projects/nodegoat">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/6575/badge.svg"/>
+</a>
+
+
 ## How to Setup Your Copy of NodeGoat
 
 ### OPTION 1 - One click install on Heroku
